@@ -254,8 +254,7 @@ footer{
 @keyframes aleksa {
 	0% {left:-250px;}
 	100% {left:0px;}
-	from {background-color:#FFFFCC;}
-	to {background-color:rgb(255, 255, 255, 0.7);}
+	
 }
 
 .gallery{
