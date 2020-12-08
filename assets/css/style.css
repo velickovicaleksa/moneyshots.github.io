@@ -111,9 +111,13 @@ nav ul li a:hover{
 	text-align:center;
 }
 
-.content iframe{
-	margin-left:2.5%;
+
+
+.mapa iframe{
+	display:block;
+	margin:0px auto;
 }
+
 
 @keyframes example {
     
