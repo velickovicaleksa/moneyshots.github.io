@@ -371,7 +371,7 @@ textarea{
   height: 1px;
   display: block;
   background:#99CCFF;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .un:hover::after {
