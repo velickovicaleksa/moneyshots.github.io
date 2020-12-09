@@ -100,6 +100,7 @@ nav ul li a:hover{
 	box-shadow: 1px 0px 7px 7px #99CCFF;
 	animation-name: example;
     animation-duration: 0.5s;
+	animation-timing-function: linear;
 	
 }
 
@@ -247,15 +248,12 @@ footer{
 	overflow:auto;
 	padding:50px;
 	position:relative;
-	animation-name:aleksa;
+	animation-name:example;
 	animation-duration:0.5s;
+	animation-timing-function: linear;
 	
 }
-@keyframes aleksa {
-	0% {left:-250px;}
-	100% {left:0px;}
-	
-}
+
 
 .gallery{
 margin:5px;
@@ -284,6 +282,19 @@ input[type=text],[type=submit], [type=reset], [type=password], select, textarea{
 	text-align:center;
 	border-radius:5px;
 }
+
+
+
+input[type=submit], [type=reset] {
+	transition: transform .2s;
+	margin-left:2%;
+}
+
+input[type=submit]:hover, [type=reset]:hover{
+	box-shadow:1px 0px 7px 4px #99CCFF;
+	transform:scale(1.3);
+}
+
 
 textarea{
 	width:70%;
