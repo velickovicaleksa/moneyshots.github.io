@@ -93,7 +93,7 @@ nav ul li a:hover{
 }
 .map iframe{
 	display:block;
-	margin:0px auto;
+	margin:2% auto;
 }
 @keyframes example {
 	0% {left:-250px;}
@@ -217,7 +217,7 @@ footer{
 }
 input[type=text],[type=submit], [type=reset], [type=password], select, textarea{
 	padding:5px;
-	margin-top:5px;
+	margin:1%;
 	text-align:center;
 	border-radius:5px;
 }
