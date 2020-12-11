@@ -2,13 +2,11 @@
 	margin:0px;
 	padding:0px;
 }
-
 #wrapper{
 	width:100%;
 	height:100%;
 	margin:0px auto;	
 }
-
 body{
 	background-color: #ffffff;
 	background-image: url("../images/cover.jpg");
@@ -16,26 +14,20 @@ body{
 	background-repeat:no repeat;
 	background-size:cover;
 }
-
 header{
 	width:80%;
 	margin:10px auto;
 }
-
 #logo{
 	float:left;
 	width:30%;
 }
-
-  
-
 #logoslika{
 	transition: transform .2s;
 	animation-name:aleksa1;
     animation-duration: 1s;
 	position:relative;
 }
-
 #logoslika:hover{
 	transform:scale(1.2);
 }
@@ -52,10 +44,6 @@ nav ul{
 	margin-top: 40px;
 	list-style-type:none;
 }
-
-
-	
-
 nav ul li{
 	display: inline;
 	margin:0px 10px;
@@ -65,29 +53,23 @@ nav ul li:last-child{
 	margin-right: 0px;
 	padding-right: 0px;
 }
-
 nav ul li a{
 	text-decoration:none;
 	text-transform:uppercase;
 	font-size:20px;
 	font-family: 'Nunito', sans-serif;
 	color:#ffffff;
-	
 }
 nav ul li a:hover{
 	text-decoration: underline;
 	color:#99CCFF;
-	
 }
-
 .class1 a,.class2 a, .class3 a, .class4 a, .class5 a {
 	color:#99CCFF;
 }
-
 .cleaner{
 	clear:both;
 }
-
 .content{
 	width:35%;
 	position:relative;
@@ -101,9 +83,7 @@ nav ul li a:hover{
 	animation-name: example;
     animation-duration: 0.5s;
 	animation-timing-function: linear;
-	
 }
-
 .content a{
 	text-decoration:none;
 	color:#000000;
@@ -111,35 +91,24 @@ nav ul li a:hover{
 .content h2,h1{
 	text-align:center;
 }
-
-
-
 .map iframe{
 	display:block;
 	margin:0px auto;
 }
-
-
 @keyframes example {
-    
 	0% {left:-250px;}
 	100% {left:0px;}
-  
 } 
-
-
 #gif{
 	width:100%;
 	height:0;
 	padding-bottom:75%;
 	position:relative;
 }
-
 .giphy-embed{
 	position:absolute;
 	margin-left:9%;
 }
-
 #start{
 	margin:10px auto;
 	text-align:center;
@@ -150,16 +119,13 @@ nav ul li a:hover{
 	transition: transform .2s;
 	box-shadow: 1px 0px 7px 7px #99CCFF;
 	padding:10px;
-
 }
 #start:hover{
 	transform:scale(1.3);
 }
-	
 #start a{
 	text-decoration:none;
-	color:#000;
-	
+	color:#000;	
 }
 .cleaner{
 	clear:both;
@@ -172,43 +138,33 @@ footer{
   box-sizing: border-box;
   background-color: #18181a;
   margin-top:20px;
- }
-
-
+}
 .inner_footer{
     display: block;
 	margin: 0px auto;
 	width: 1100px;
 	height: 100% ;
 }
-
 .inner_footer .logo_container{
 	width:35%;
 	float:left;
 	height:100%;
 	display:block;
 }
-
-
 .inner_footer .logo_container img{
 	 width:35%;
 	 height:auto;
-	 
- }
-
+}
 .inner_footer .footer_third{
 	width:calc(21.6666666667 - 20px);
 	margin-right:30px;
 	float:left;
 	height:100%;
-	
 }
-
 .inner_footer .footer_third:last-child{
 	margin-right:0;
 }
-
-.inner_footer .footer_third h2{
+.inner_footer .footer_third h3{
 	font-family: 'Nunito', sans-serif;
 	font-size:22px;
 	color:white;
@@ -216,9 +172,6 @@ footer{
 	width:100%;
 	margin-bottom:20px;
 }
-	
-
-
 .inner_footer .footer_third a, .inner_footer .footer_third p{
 	font-family: 'Nunito', sans-serif;
 	font-size:18px;
@@ -227,19 +180,13 @@ footer{
 	display:block;
 	width:100%;
 	padding-bottom:20px;
-	
-
 }
- 
 .inner_footer .footer_third ul li{
   display:inline-block;
   padding: 0 5px;
   font-size: 20px;
   list-style-type:none;
 }	
-
-
-
 .container{
 	max-width:1200px;
 	margin:10px auto;
@@ -251,59 +198,43 @@ footer{
 	animation-name:example;
 	animation-duration:0.5s;
 	animation-timing-function: linear;
-	
 }
-
-
 .gallery{
-margin:5px;
-border:1px solid #ccc;
-float:left;
-width:180px;
-
+	margin:5px;
+	border:1px solid #ccc;
+	float:left;
+	width:180px;
 }
-
 .gallery img{
-width:100%;
-height:auto;
-margin:0px auto;
-transition: transform .2s;
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	transition: transform .2s;
 }
-
 .gallery img:hover{
-box-shadow:1px 0px 7px 7px #99CCFF;;
-transform:scale(1.3);
-
+	box-shadow:1px 0px 7px 7px #99CCFF;
+	transform:scale(1.3);
 }
-
 input[type=text],[type=submit], [type=reset], [type=password], select, textarea{
 	padding:5px;
 	margin-top:5px;
 	text-align:center;
 	border-radius:5px;
 }
-
-
-
 input[type=submit], [type=reset] {
 	transition: transform .2s;
 	margin-left:2%;
 }
-
 input[type=submit]:hover, [type=reset]:hover{
 	box-shadow:1px 0px 7px 4px #99CCFF;
 	transform:scale(1.3);
 }
-
-
 textarea{
 	width:70%;
 }
-
 .content img{
 	margin-top:2%;
 }
-
 .fb:hover{
 	color:#6666FF;
 }
@@ -311,27 +242,21 @@ textarea{
 .ig:hover{
 	color:#990066;
 }
-
 .tw:hover{
 	color:#6633FF;
 }
-
 .yt:hover{
 	color:#FF0000;
 }
-
 .rs:hover{
 	color:#FF6600;
 }
-
 .sm:hover{
 	color:#00CC33;
 }
-
 .margin{
 	margin:2% auto;
 }
-
 .vol, .mama{
 	font-family: 'Nunito', sans-serif;
 	font-size:30px;
@@ -348,23 +273,18 @@ textarea{
 	z-index:1;
 	
 }
-
 .content img{
 	margin-left: auto;
     margin-right: auto;
     display: block;
 	border-radius:10px;
-}
-   
+} 
 #author{
 	margin:5%;
-}
-	
-
+}	
 .un {
   display: inline-block;
 }
-
 .un::after {
   content: '';
   width: 0px;
@@ -373,7 +293,6 @@ textarea{
   background:#99CCFF;
   transition: 0.5s;
 }
-
 .un:hover::after {
   width: 100%;
 }
