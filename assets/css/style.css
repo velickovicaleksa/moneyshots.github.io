@@ -91,6 +91,9 @@ nav ul li a:hover{
 .content h2,h1{
 	text-align:center;
 }
+.register{
+	font-size:24px;
+}
 .map iframe{
 	display:block;
 	margin:2% auto;
@@ -188,6 +191,8 @@ footer{
   list-style-type:none;
 }	
 .container{
+	text-align:center;
+	font-family: 'Nunito', sans-serif;
 	max-width:1200px;
 	margin:10px auto;
 	background-color:rgb(255, 255, 255, 0.7);
@@ -198,6 +203,9 @@ footer{
 	animation-name:example;
 	animation-duration:0.5s;
 	animation-timing-function: linear;
+}
+.container h1{
+	margin-bottom:2%;
 }
 .gallery{
 	margin:5px;
